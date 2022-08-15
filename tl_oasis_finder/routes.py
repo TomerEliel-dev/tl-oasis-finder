@@ -1,6 +1,5 @@
-from flask import Flask, render_template, request
-
-tl_oasis_finder = Flask(__name__)
+from tl_oasis_finder import tl_oasis_finder
+from flask import render_template, request
 
 @tl_oasis_finder.route("/",methods = ['GET'])
 def index(name="Tomer"):
