@@ -1,4 +1,3 @@
-from subprocess import CREATE_NEW_CONSOLE
 from flask import Flask, render_template, request
 
 tl_oasis_finder = Flask(__name__)
