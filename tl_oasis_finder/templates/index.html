@@ -8,14 +8,16 @@
       <p>
         Please Select:
       </p>
-      <p>1. Getting map files from server only</p><button>Here </button>
+      <p>1. Getting map files from server only</p><a href="search"><button>Here </button></a>
       <p>2. Process map files and build complete map json</p><button>Here </button>
-      <p>3. Both - Get map files from server AND process them into one map json file</p><button>Here </button>
+      <p>3. Both - Get map files from server AND process them into one map json file</p><a href="loading"><button>Here </button></a>
       <p>4. Search Oasis</p><button>Here </button>
     </div>
 
-    <form action="/search">
-        <input type="text" name="name"/>
+    <form action="/map">
+        <input type="text" name="base_url"/>
+        <input type="text" name="usr"/>
+        <input type="text" name="passw"/>
         <button type="submit">Search</button>
     </form>
   </body>
