@@ -1,1 +1,1 @@
-web: gunicorn run:tl_oasis_finder --timeout 720
+web: gunicorn run:tl_oasis_finder --timeout 1500
